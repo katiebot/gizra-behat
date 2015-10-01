@@ -11,9 +11,9 @@ Feature: Blog post
     And   I should see the author "<author>"
 
   Examples:
-    | url                                          | text                    | author          |
-    | content/automatic-qa/                        | Here is a known fact    | Amitai Burstein |
-    | content/phantomcss-ui-regression/            | What's fun about having | Amitai Burstein |
-    | content/backend-free-apps-grunt-jekyll-d3js/ | When we started working | Carlos Mantilla |
+    | url                                                 | text                    | author          |
+    | webscope-in-the-running-for-deloittes-fast-50-2015  | The Deloittes fast 50   | Sam             |
+    | paper-is-dead-building-custom-business-systems      | Transfering your unique | Sam             |
+    | ansible-a-closer-look                               | Ansible is a great tool | Michael         |
 
 

@@ -19,13 +19,13 @@ class FeatureContext extends MinkContext implements SnippetAcceptingContext {
    * @Then I should the text :text under the main content
    */
   public function iShouldTheTextUnderTheMainContent($text) {
-    $this->assertElementContains('.post-content', $text);
+    $this->assertElementContains('.blog-full-node', $text);
   }
 
   /**
    * @Then I should see the author :author
    */
   public function iShouldSeeTheAuthor($author) {
-    $this->assertElementContains('.author', $author);
+    $this->assertElementContains('.blog-author h4', $author);
   }
 }
