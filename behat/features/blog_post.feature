@@ -11,9 +11,9 @@ Feature: Blog post
     And   I should see the author "<author>"
 
   Examples:
-    | url                                                 | text                    | author          |
-    | webscope-in-the-running-for-deloittes-fast-50-2015  | The Deloittes fast 50   | Sam             |
-    | paper-is-dead-building-custom-business-systems      | Transfering your unique | Sam             |
-    | ansible-a-closer-look                               | Ansible is a great tool | Michael         |
+    | url                                                 | text                      | author          |
+    | webscope-in-the-running-for-deloittes-fast-50-2015  | Webscope has been entered | Sam             |
+    | paper-is-dead-building-custom-business-systems      | Transfering your unique   | Sam             |
+    | ansible-a-closer-look                               | Ansible is a great tool   | Michael         |
 
 
